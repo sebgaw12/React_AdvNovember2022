@@ -3,7 +3,9 @@
 // import GreetingsArrow from './Greetings/GreetingsArrow';
 // import GreetingsClass from './Greetings/GreetingsClass';
 import CounterClass from "./Counter/CounterClass";
+import Lifecycle from "./Lifecycle/Lifecycle";
 import LoginForm from "./LoginForm/LoginForm";
+import SecretMessage from "./SecretMessage/SecretMessage";
 function App() {
   return (
     <div>
@@ -13,7 +15,9 @@ function App() {
     <GreetingsArrow name="Tomek" />
     <GreetingsClass name="Agata" /> */}
     {/* <CounterClass /> */}
-    <LoginForm />
+    {/* <LoginForm /> */}
+    {/* <SecretMessage /> */}
+    <Lifecycle />
     </div>
   );
 }
