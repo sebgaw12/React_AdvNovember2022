@@ -4,12 +4,15 @@
 // import GreetingsClass from './Greetings/GreetingsClass';
 import Board from "./Board/Board";
 import CounterClass from "./Counter/CounterClass";
+import CounterHook from "./Counter/CounterHook";
 import FetchApi from "./FetchApi/FetchApi";
+import FetchApiHook from "./FetchApi/FetchApiHook";
 import Lifecycle from "./Lifecycle/Lifecycle";
 import LoginForm from "./LoginForm/LoginForm";
 import Quiz from "./Quiz/Quiz";
 import RouterReact from "./Router/RouterReact";
 import SecretMessage from "./SecretMessage/SecretMessage";
+
 function App() {
   return (
     <div>
@@ -25,7 +28,9 @@ function App() {
     {/* <Board /> */}
     {/* <RouterReact /> */}
     {/* <Quiz /> */}
-    <FetchApi />
+    {/* <FetchApi /> */}
+    {/* <CounterHook /> */}
+    <FetchApiHook />
     </div>
   );
 }
