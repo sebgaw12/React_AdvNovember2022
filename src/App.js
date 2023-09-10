@@ -4,6 +4,7 @@
 // import GreetingsClass from './Greetings/GreetingsClass';
 import Board from "./Board/Board";
 import CounterClass from "./Counter/CounterClass";
+import FetchApi from "./FetchApi/FetchApi";
 import Lifecycle from "./Lifecycle/Lifecycle";
 import LoginForm from "./LoginForm/LoginForm";
 import Quiz from "./Quiz/Quiz";
@@ -23,7 +24,8 @@ function App() {
     {/* <Lifecycle /> */}
     {/* <Board /> */}
     {/* <RouterReact /> */}
-    <Quiz />
+    {/* <Quiz /> */}
+    <FetchApi />
     </div>
   );
 }
