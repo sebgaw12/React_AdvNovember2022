@@ -2,6 +2,7 @@
 // import Greetings from './Greetings/Greetings';
 // import GreetingsArrow from './Greetings/GreetingsArrow';
 // import GreetingsClass from './Greetings/GreetingsClass';
+import Board from "./Board/Board";
 import CounterClass from "./Counter/CounterClass";
 import Lifecycle from "./Lifecycle/Lifecycle";
 import LoginForm from "./LoginForm/LoginForm";
@@ -17,7 +18,8 @@ function App() {
     {/* <CounterClass /> */}
     {/* <LoginForm /> */}
     {/* <SecretMessage /> */}
-    <Lifecycle />
+    {/* <Lifecycle /> */}
+    <Board />
     </div>
   );
 }
