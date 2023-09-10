@@ -6,6 +6,7 @@ import Board from "./Board/Board";
 import CounterClass from "./Counter/CounterClass";
 import Lifecycle from "./Lifecycle/Lifecycle";
 import LoginForm from "./LoginForm/LoginForm";
+import Quiz from "./Quiz/Quiz";
 import RouterReact from "./Router/RouterReact";
 import SecretMessage from "./SecretMessage/SecretMessage";
 function App() {
@@ -21,7 +22,8 @@ function App() {
     {/* <SecretMessage /> */}
     {/* <Lifecycle /> */}
     {/* <Board /> */}
-    <RouterReact />
+    {/* <RouterReact /> */}
+    <Quiz />
     </div>
   );
 }
