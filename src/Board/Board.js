@@ -15,7 +15,7 @@ class Board extends Component {
             <div>
                 <h1>Board</h1>
                 {/* {this.state.cards.map((card, i) => <p key={i}>{card}</p>)} */}
-                {this.state.cards.map((card, i) => <Card key={i} value={card} />)}
+                {this.state.cards.map((card) => <Card value={card} />)}
             </div>
         )
     }

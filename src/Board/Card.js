@@ -1,3 +1,3 @@
-const Card = (props) => <p>{props.value}</p>
+const Card = (props) => <div> <p>{props.value}</p></div>
 
 export default Card;
